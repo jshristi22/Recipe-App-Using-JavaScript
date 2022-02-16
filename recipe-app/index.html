@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="mobile-container">
+    <header>
+        <input type="text" id="search-term"/>
+        <button id="search"> <i class="fa-solid fa-magnifying-glass"></i></button>
+    </header>
+    <div class="fav-container">
+        <h3>Favorite Meals</h3>
+        <ul class="fav-meals" id="fav-meals">
+            <!-- <li><img src="https://hips.hearstapps.com/hmg-prod/images/190416-chicken-burger-082-1556204252.jpg" alt=""><span>Burger</span></li>
+            <li><img src="https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/249668.jpg" alt=""><span>Lasagna</span></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Espaguetis_carbonara.jpg/1200px-Espaguetis_carbonara.jpg" alt=""><span>Carbonara</span></li>
+            <li><img src="https://hips.hearstapps.com/hmg-prod/images/190416-chicken-burger-082-1556204252.jpg" alt=""><span>Burger</span></li>
+        </ul> -->
+        </ul>
+    </div>
+    <div class="meals" id="meals"> </div>
+    </div>
+
+
+    <div class="popup-container hidden" id="meal-popup">
+        <div class="popup">
+            <button id="close-popup" class="close-popup">
+                <i class="fa-solid fa-circle-xmark"></i> 
+            </button>
+            <div class="meal-info" id="meal-info">
+                <!-- in js-->
+            </div>
+        </div>
+    </div>
+
+    </body>
+</html>
